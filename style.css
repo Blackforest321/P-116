@@ -1,0 +1,26 @@
+canvas{
+    border: dotted plum 5px;
+}
+
+button
+{
+   animation-name:text_change;
+   animation-duration:4s ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes text_change
+{
+    from{scale: 1;}
+    to{scale:2;}
+}
+
+h2{
+    font-size: 25px !important;
+}
+
+body
+{
+    background-size:100%;
+}
